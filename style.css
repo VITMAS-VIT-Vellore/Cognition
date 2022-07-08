@@ -506,7 +506,7 @@ li a{
     flex-wrap: wrap;
 }
 
-.track1, .track2, .track3, .track4 {
+.track1, .track2, .track3, .track4, .track5 {
     position: relative;
     width: 400px;
     height: 400px;
@@ -520,7 +520,7 @@ li a{
     
   }
   
-  .track1-title, .track2-title, .track3-title, .track4-title  {
+  .track1-title, .track2-title, .track3-title, .track4-title, .track5-title  {
     margin: 0;
     position: absolute;
     width: 100%;
@@ -533,20 +533,20 @@ li a{
     color: rgb(123, 255, 0);
   }
   
-  .track1:hover .track1-title ,.track2:hover .track2-title , .track3:hover .track3-title, .track4:hover .track4-title {
+  .track1:hover .track1-title ,.track2:hover .track2-title , .track3:hover .track3-title, .track4:hover .track4-title, .track5:hover .track5-title {
     top: 10px;
     transform: translateY(0);
 
   }
 
     
-  .track1:hover .boximg ,.track2:hover .boximg , .track3:hover .boximg, .track4:hover .boximg {
+  .track1:hover .boximg ,.track2:hover .boximg , .track3:hover .boximg, .track4:hover .boximg, .track5:hover .boximg {
 
    display: none;
     
   }
   
-  .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+  .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
     
     position: absolute;
     top: 400px;
@@ -558,7 +558,7 @@ li a{
     margin-right: 2%;
   }
   
-  .track1:hover .track1-hidden ,.track2:hover .track2-hidden , .track3:hover .track3-hidden, .track4:hover .track4-hidden {
+  .track1:hover .track1-hidden ,.track2:hover .track2-hidden , .track3:hover .track3-hidden, .track4:hover .track4-hidden, .track5:hover .track5-hidden {
     top: 50%;
     transform: translateY(-50%);
     transition: 0.5s;
@@ -584,6 +584,11 @@ li a{
     margin-left: 40%;
   }
 
+  #fpvimg{
+    width: 45%;
+    margin-left: 28%;
+  }
+
 
 
 .track1, .track3{
@@ -591,6 +596,13 @@ li a{
 }
 .track2, .track4{
     margin-right: 20%;
+    
+}
+
+.track5{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
     
 }
 
@@ -827,7 +839,7 @@ details{
         margin-top: 4%;
     }
 
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4,.track5 {
         
         width: 370px;
         height : 400px;
@@ -837,7 +849,6 @@ details{
     }
     .track2, .track4{
         margin-right: 15%;
-        
     }
 
 }
@@ -858,7 +869,7 @@ details{
         margin-top: 4%;
     }
 
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4, .track5 {
         
         width: 340px;
         height : 380px;
@@ -892,7 +903,7 @@ details{
         margin-top: 7%;
     }
 
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4, .track5 {
         
         width: 320px;
         height : 360px;
@@ -905,7 +916,7 @@ details{
         
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
 
     font-size: 20px;
     
@@ -934,7 +945,7 @@ details{
     #cogimg{
         margin-top: 3%;
     }
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4, .track5 {
         
         width: 320px;
         height : 360px;
@@ -947,7 +958,7 @@ details{
         
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
 
     font-size: 20px;
     
@@ -975,7 +986,7 @@ details{
     #cogimg{
         margin-top: 4%;
     }
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4 ,.track5{
         
         width: 300px;
         height : 340px;
@@ -988,7 +999,7 @@ details{
         
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
 
     font-size: 18px;
     
@@ -1028,7 +1039,7 @@ details{
         font-size: 135%;
     }
 
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4 , .track5{
         
         width: 270px;
         height : 340px;
@@ -1041,7 +1052,7 @@ details{
         
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
 
     font-size: 18px;
     
@@ -1086,7 +1097,7 @@ details{
         font-size: 135%;
     }
 
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4, .track5{
         
         width: 250px;
         height : 340px;
@@ -1099,7 +1110,7 @@ details{
         
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
 
     font-size: 15px;
     
@@ -1145,7 +1156,7 @@ details{
         font-size: 125%;
     }
 
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4, .track5{
         
         width: 250px;
         height : 340px;
@@ -1158,7 +1169,7 @@ details{
         
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
 
     font-size: 15px;
     
@@ -1203,7 +1214,7 @@ details{
         font-size: 125%;
     }
 
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4, .track5 {
         
         width: 60%;
         height : 340px;
@@ -1228,7 +1239,7 @@ details{
         margin-left: 20%;
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
 
     font-size: 15px;
     
@@ -1246,7 +1257,7 @@ details{
 
 
 @media (max-width:500px) and (min-width:400px) {
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4, .track5{
         
         width: 60%;
         height : 340px;
@@ -1271,7 +1282,7 @@ details{
         margin-left: 20%;
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden , .track5-hidden{
 
     font-size: 15px;
     
@@ -1301,7 +1312,7 @@ details{
         font-size:75%;
     }
 
-    .track1, .track2, .track3, .track4 {
+    .track1, .track2, .track3, .track4, .track5 {
         
         width: 60%;
         height : 340px;
@@ -1326,7 +1337,7 @@ details{
         margin-left: 20%;
     }
 
-    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden{
+    .track1-hidden,  .track2-hidden, .track3-hidden, .track4-hidden, .track5-hidden{
 
     font-size: 15px;
     
